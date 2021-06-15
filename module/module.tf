@@ -1,7 +1,7 @@
 module "app" {
     source = "../"
-    // replace with your own project ID
-    project = "sewpvcbwsybddcro"
+      //replace with your own project ID
+    	project = "sewpvcbwsybddcro"
 	region = "us-central1"
 	zone = "us-central1-c"
 	cluster_name = "my-gke-cluster"
